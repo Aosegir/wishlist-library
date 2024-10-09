@@ -3,6 +3,7 @@
     border: 0;
     padding: 0;
     color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 body {
@@ -21,9 +22,18 @@ body {
     border: 3px solid #081c15;
     border-radius: 8px;
     box-shadow: 5px 5px 5px #003049;
-    height: 6%;
-    width: 10%;
     position: absolute;
-    left: 2%;
+    left: 5%;
     bottom: 2%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+    border: 3px solid #081c15;
+    padding: 10px;
 }

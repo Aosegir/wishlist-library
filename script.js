@@ -11,3 +11,12 @@ function item(name, price, isPurchased) {
 // DOM wishlist container div that will store the items visually
 const wishlistContainer = document.getElementById('wishlist-container');
 
+// create button that will be used to add items
+const create = document.getElementById('create');
+
+create.addEventListener('click', () => {
+    event.preventDefault();
+    for(ele of create.parentElement) {
+        console.log(ele.innerHTML);
+    };
+});

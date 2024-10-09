@@ -8,7 +8,18 @@
 </head>
 <body>
     <div id="wishlist-container"></div>
-    <button id="create">Create an item!</button>
+    <form action="" method="post">
+        <div>
+            <label for="name">Item Name</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            <label for="price">Price</label>
+            <input type="text" id="price" name="price">
+        </div>
+        <button type="submit" id="create">Create an item!</button>
+    </form>
+    
     <script src="script.js"></script>
 </body>
 </html>
